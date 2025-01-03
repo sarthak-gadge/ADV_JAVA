@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+</style>
+</head>
+<body>
+
+      <h1>Simple Calculator</h1>
+<form action="SimpleCalculatorServlet" method="post">
+  <label for="num1">Number 1: </label>
+  <input type="text" id="num1" name="num1" required><br><br>
+  <label for="num2">Number 2:</label>
+  <input type="text" id="num2" name="num2" required><br><br>
+  
+  <label for="operation">Operations: </label>
+  <select id="operation" name="operation" required>
+  <option value="add">Add</option>
+  <option value="sub">Subtract</option>
+  <option value="multi">Multiply</option>
+  <option value="div">Division</option>
+  </select><br><br>
+  
+  <input type="submit" value="calculate">
+  
+  
+  
+  
+</form>
+
+</body>
+</html>
